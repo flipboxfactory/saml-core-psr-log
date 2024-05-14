@@ -1,0 +1,46 @@
+{
+  "name": "flipboxfactory/saml-core-psr-log",
+  "description": "SAML SSO Core logger to support the different versions of psr/log",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": [
+    "cms",
+    "craftcms",
+    "psr/log",
+    "yii2"
+  ],
+  "require": {
+    "craftcms/cms": "^4.0",
+    "psr/log": "^1.1.4"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.4",
+    "phpunit/phpunit": "^11.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "flipbox\\saml\\psr\\log\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "flipbox\\saml\\psr\\log\\tests\\": "test/"
+    }
+  },
+  "scripts": {
+      "test": "phpunit tests"
+  },
+  "support": {
+    "email": "support@flipboxfactory.com",
+    "issues": "https://github.com/flipboxfactory/saml-core-psr-log/issues?state=open",
+    "source": "https://github.com/flipboxfactory/saml-core-psr-log",
+    "docs": "https://github.com/flipboxfactory/saml-core-psr-log",
+    "rss": "https://github.com/flipboxfactory/saml-core-psr-log/commits/master.atom"
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
