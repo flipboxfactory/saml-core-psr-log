@@ -73,7 +73,7 @@ class Logger extends Component implements LoggerInterface
      * @inheritdoc
      */
 
-    public function log($level, $message, array $context = [])
+    public function log($level, string|\Stringable $message, array $context = []): void
     {
         // Resolve category from 'context'
         $category = ArrayHelper::remove($context, 'category', $this->category);
