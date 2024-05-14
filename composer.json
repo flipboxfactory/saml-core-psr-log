@@ -24,7 +24,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "flipbox\\saml\\psr\\log\\tests\\": "test/"
+      "flipbox\\saml\\psr\\log\\tests\\": "tests/"
     }
   },
   "scripts": {
