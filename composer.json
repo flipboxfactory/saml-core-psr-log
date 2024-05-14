@@ -6,7 +6,8 @@
   "keywords": [
     "cms",
     "craftcms",
-    "psr/log",
+    "psr",
+    "log",
     "yii2"
   ],
   "require": {
